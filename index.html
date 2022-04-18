@@ -2,27 +2,79 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Site de partages</title>
+
+    <title>Intitulé de ma page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Les trois lignes ci‑dessous sont un correctif pour que la sémantique
+         HTML5 fonctionne correctement avec les anciennes versions de
+         Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
   </head>
+
   <body>
-    <p style="text-align: center;">Webdata1.0 est une liste organiser de sites web pour les pirates, les pentesters et les chercheurs en s&eacute;curit&eacute;<br />ainsi que pour les particuliers. (Attention toutes utilisation de c'est site n'est en aucun cas notre fautes si vous<br />les utilisez a des fins d'utilisation ill&eacute;gal.)<br />----------------------------------------------------------------<br />CAT&Eacute;GORIES</p>
-    <p style="text-align: center;"><br />1) G&eacute;n&eacute;rateurs:<br />G&eacute;n&eacute;rateur de MDP<br />G&eacute;n&eacute;rateur de comptes<br />G&eacute;n&eacute;rateur de mots et textes<br />G&eacute;n&eacute;rateur de virus</p>
-    <p style="text-align: center;"><br />2 ) Cryptage et d&eacute;cryptage<br />De texte<br />D'image<br />De liens</p>
-    <p style="text-align: center;">3 ) V&eacute;rificateurs :<br />V&eacute;rificateur de lien<br />V&eacute;rificateur de fichier</p>
-    <p style="text-align: center;"><br />4) Autres :&nbsp;<br />Sites remplit d'outils gratuits<br />Banque d'images a t&eacute;l&eacute;charger libre de droit<br />Serveur de stockage de fichier<br />Analyse de sites web</p>
-    <p style="text-align: center;">G&Eacute;N&Eacute;RATEURS</p>
-    <p style="text-align: center;">G&eacute;n&eacute;rateur de MDP :<br />-https://www.motdepasse.xyz/<br />-https://www.generateur-motdepasse.com/<br />-https://www.lastpass.com/fr/features/password-generator<br />-https://www.dashlane.com/fr/features/password-generator<br />-https://www.roboform.com/fr/password-generator</p>
-    <p style="text-align: center;">G&eacute;n&eacute;rateur de comptes :<br />-https://leak.sx/<br />-https://www.magicgen.xyz/<br />-https://bluealts.net/<br />-https://boomalts.com/<br />-https://www.freegen.xyz/<br />-https://a-gen.io/<br />(Attention tous les g&eacute;n&eacute;rateurs ne fonctionne pas a 100% !)</p>
-    <p style="text-align: center;">G&eacute;n&eacute;rateur de mots et de textes (pipotron) :<br />-http://www.lepipotron.com/<br />-http://www.encyclopedie-incomplete.com/?Le-Pipotron-Generateur-Automatique<br />-http://laurentdrouvot.chez.com/Pipotron.htm.html<br />__G&eacute;n&eacute;rateur de virus :__<br />-http://deltahacker.xara.hosting/virus%20maker.htm<br />-https://blackhost.xyz/?id=vm<br />-(Pour plus de liens merci de ce r&eacute;f&eacute;renc&eacute; au de "@BO$$" : https://ouranos877448509.wordpress.com/blog/</p>
-    <p style="text-align: center;">CRYPTAGE ET D&Eacute;CRYPTAGE</p>
-    <p style="text-align: center;">De texte :<br />-https://www.online-toolz.com/langs/fr/tool-fr-text-encryption-decryption.html#<br />-https://cladx.com/e-outils/encrypteur.html<br />-https://persontool.com/fr/tools/rabbit-online-decryption</p>
-    <p style="text-align: center;">D'image :<br />-https://encrypt.imageonline.co/index-fr.php / https://decrypt.imageonline.co/index-fr.php<br />__De liens :__<br />-https://www.convertstring.com/fr/EncodeDecode/UrlEncode</p>
-    <p style="text-align: center;">V&Eacute;RIFICATEURS</p>
-    <p style="text-align: center;">V&eacute;rificateur de lien :<br />-https://www.site24x7.com/fr/tools/verificateur-de-liens.html<br />-https://scanurl.net/<br />-https://opentip.kaspersky.com/<br />__V&eacute;rificateur de fichier :__<br />-https://www.virustotal.com/</p>
-    <p style="text-align: center;">AUTRES</p>
-    <p style="text-align: center;">Serveur de stockage de fichier :<br />-https://mega.io/<br />-https://1fichier.info/<br />-https://www.terabox.com/<br />- https://www.anonfiles.com</p>
-    <p style="text-align: center;">Sites remplit d'outils gratuits :<br />-https://convertir.github.io/<br />-https://ninja-webtools.com/fr<br />-https://www.onlinewebtools.site/fr<br />-https://www.webtools.space/fr<br />-https://citynetwebtools.com/fr<br />-https://tools.pdf24.org/fr/<br />-https://literacyadviser.wordpress.com/100-useful-websites-for-teachers-and-learners/<br />-https://www.classtools.net/<br />-https://webstatsdomain.org/tools/<br />-https://mytoolz.net/tools/<br />-https://www.online-toolz.com/<br />-https://fossbytes.com/tools<br />-https://www.webconfs.com/web-tools/<br />-https://tools.pingdom.com/<br />-https://www.smartwebsolutions.org/</p>
-    <p style="text-align: center;">Banques d'images a t&eacute;l&eacute;charger libre de droit :<br />-https://www.pixabay.com<br />-https://www.pexels.com</p>
-    <p style="text-align: center;">Analyse de sites web :<br />-https://webrate.org/</p>
+    <!-- Voici notre en‑tête principale utilisée dans toutes les pages
+         de notre site web -->
+    <header>
+      <h1>En-tête</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">L'équipe</a></li>
+        <li><a href="#">Projets</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+       <!-- Un formulaire de recherche est une autre façon de naviguer de
+            façon non‑linéaire dans un site. -->
+
+       <form>
+         <input type="search" name="q" placeholder="Rechercher">
+         <input type="submit" value="Lancer !">
+       </form>
+     </nav>
+
+    <!-- Ici nous mettons le contenu de la page -->
+    <main>
+
+      <!-- Il contient un article -->
+      <article>
+        <h2>En-tête d'article</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+
+        <h3>Sous‑section</h3>
+        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+
+        <h3>Autre sous‑section</h3>
+        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+      </article>
+
+      <!-- Le contenu « à côté » peut aussi être intégré dans le contenu
+           principal -->
+      <aside>
+        <h2>En relation</h2>
+        <ul>
+          <li><a href="#">Combien j'aime être près des rivages</a></li>
+          <li><a href="#">Combien j'aime être près de la mer</a></li>
+          <li><a href="#">Bien que dans le nord de l'Angleterre</a></li>
+          <li><a href="#">Il n'arrête jamais de pleuvoir</a></li>
+          <li><a href="#">Eh bien…</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
+    <footer>
+      <p>©Copyright 2050 par personne. Tous droits reversés.</p>
+    </footer>
+
   </body>
 </html>
